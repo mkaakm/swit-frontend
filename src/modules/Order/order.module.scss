@@ -1,0 +1,37 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 414px 673px;
+  gap: 70px;
+
+  @media (max-width: 440px) {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.blockTitle {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.07em;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.contacts {
+  //margin-bottom: 15px;
+}
+
+.payment {
+  //margin-bottom: 15px;
+}
+
+.comment {
+  //margin-bottom: 50px;
+}
+
+.orderWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,627 @@
+{
+    "top-menu": [
+        {
+            "id": "1",
+            "link": "/about-company",
+            "text": "Про компанію"
+        },
+        {
+            "id": "2",
+            "link": "/payment-and-delivery",
+            "text": "Оплата і доставка"
+        },
+        {
+            "id": "3",
+            "link": "/contacts",
+            "text": "Контакти"
+        },
+        {
+            "id": "4",
+            "link": "/guarantees",
+            "text": "Гарантії"
+        },
+        {
+            "id": "5",
+            "link": "/service",
+            "text": "Сервіс"
+        }
+    ],
+    "main-menu": {
+        "user-menu": [
+            {
+                "id": "1",
+                "img": "icon-sale",
+                "link": "#",
+                "text": "акції",
+                "mobile": true
+            },
+            {
+                "id": "2",
+                "img": "icon-compare",
+                "link": "#",
+                "text": "порівняти",
+                "counter": "3",
+                "mobile": true
+            },
+            {
+                "id": "3",
+                "img": "icon-favourite",
+                "link": "#",
+                "text": "обране",
+                "counter": "12",
+                "mobile": true
+            },
+            {
+                "id": "4",
+                "img": "icon-basket",
+                "link": "#",
+                "text": "кошик"
+            }
+        ],
+        "product-menu": [
+            {
+                "id": "7",
+                "link": "#",
+                "text": "Бренди",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "#",
+                        "text": "ADE"
+                    },
+                    {
+                        "id": "2",
+                        "link": "#",
+                        "text": "Bamix"
+                    },
+                    {
+                        "id": "3",
+                        "link": "#",
+                        "text": "Brita"
+                    },
+                    {
+                        "id": "4",
+                        "link": "#",
+                        "text": "Duralex"
+                    },
+                    {
+                        "id": "5",
+                        "link": "#",
+                        "text": "Fiskars"
+                    },
+                    {
+                        "id": "6",
+                        "link": "#",
+                        "text": "Gefu"
+                    },
+                    {
+                        "id": "7",
+                        "link": "#",
+                        "text": "Italla"
+                    },
+                    {
+                        "id": "8",
+                        "link": "#",
+                        "text": "Swiss Diamond"
+                    },
+                    {
+                        "id": "9",
+                        "link": "#",
+                        "text": "Valera"
+                    }
+                ]
+            },
+            {
+                "id": "1",
+                "link": "/categories/511",
+                "text": "Посуд для приготування та запікання",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "/categories/513",
+                        "text": "Каструлі"
+                    },
+                    {
+                        "id": "2",
+                        "link": "/categories/515",
+                        "text": "Ківші"
+                    },
+                    {
+                        "id": "3",
+                        "link": "/categories/513",
+                        "text": "Сковороди"
+                    },
+                    {
+                        "id": "4",
+                        "link": "/categories/519",
+                        "text": "Сковороди Вок"
+                    },
+                    {
+                        "id": "5",
+                        "link": "/categories/521",
+                        "text": "Сковороди гриль"
+                    },
+                    {
+                        "id": "6",
+                        "link": "/categories/523",
+                        "text": "Сковороди для млинців"
+                    },
+                    {
+                        "id": "7",
+                        "link": "/categories/525",
+                        "text": "Сотейники"
+                    },
+                    {
+                        "id": "8",
+                        "link": "/categories/527",
+                        "text": "Набори посуду"
+                    },
+                    {
+                        "id": "9",
+                        "link": "/categories/529",
+                        "text": "Кришки"
+                    },
+                    {
+                        "id": "10",
+                        "link": "/categories/531",
+                        "text": "Посуд для запікання"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "link": "/categories/533",
+                "text": "Аксесуари для кухні та дому",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "/categories/535",
+                        "text": "Кухонні гаджети",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/597",
+                                "text": "Все для спецій та приправ"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/595",
+                                "text": "Терки, слайсери, овочерізки"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/593",
+                                "text": "Горіхоколи, штопори, преси для часнику"
+                            },
+                            {
+                                "id": "4",
+                                "link": "/categories/591",
+                                "text": "Дошки обробні"
+                            },
+                            {
+                                "id": "5",
+                                "link": "/categories/589",
+                                "text": "Термометри, щупи, таймери"
+                            },
+                            {
+                                "id": "6",
+                                "link": "/categories/587",
+                                "text": "Аксесуари для приготування м'яса"
+                            },
+                            {
+                                "id": "7",
+                                "link": "/categories/585",
+                                "text": "Кухонні інструменти та приладдя"
+                            },
+                            {
+                                "id": "8",
+                                "link": "/categories/583",
+                                "text": "Для хліба"
+                            },
+                            {
+                                "id": "9",
+                                "link": "/categories/581",
+                                "text": "Паста та равіолі"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "link": "/categories/537",
+                        "text": "Кондитерські інструменти"
+                    },
+                    {
+                        "id": "3",
+                        "link": "/categories/539",
+                        "text": "Ножі, піллери, точилки",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/579",
+                                "text": "Ножі кухонні"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/577",
+                                "text": "Ножі професійні"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/575",
+                                "text": "Набори ножів"
+                            },
+                            {
+                                "id": "4",
+                                "link": "/categories/573",
+                                "text": "Піллери"
+                            },
+                            {
+                                "id": "5",
+                                "link": "/categories/571",
+                                "text": "Точилки"
+                            },
+                            {
+                                "id": "6",
+                                "link": "/categories/569",
+                                "text": "Планки, підставки для ножів"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "link": "/categories/541",
+                        "text": "Ножиці, точилки",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/567",
+                                "text": "Ножиці кухонні"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/565",
+                                "text": "Ножиці універсальні"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/563",
+                                "text": "Ножиці спеціалізовані"
+                            },
+                            {
+                                "id": "4",
+                                "link": "/categories/561",
+                                "text": "Ножиці садові"
+                            },
+                            {
+                                "id": "5",
+                                "link": "/categories/559",
+                                "text": "Точилки для ножиць"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "link": "/categories/543",
+                        "text": "Ваги",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/553",
+                                "text": "Ваги дорожні"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/555",
+                                "text": "Ваги кухонні"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/557",
+                                "text": "Ваги підлогові"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "link": "/categories/545",
+                        "text": "Годинники, гігрометри, метеостанції",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/547",
+                                "text": "Годинники"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/549",
+                                "text": "Гігрометри"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/551",
+                                "text": "Метеостанції"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "link": "/categories/599",
+                "text": "Зберігання та сервірування",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "/categories/601",
+                        "text": "Тарілки"
+                    },
+                    {
+                        "id": "2",
+                        "link": "/categories/603",
+                        "text": "Салатники"
+                    },
+                    {
+                        "id": "3",
+                        "link": "/categories/605",
+                        "text": "Бокали та чарки"
+                    },
+                    {
+                        "id": "4",
+                        "link": "/categories/607",
+                        "text": "Склянки"
+                    },
+                    {
+                        "id": "5",
+                        "link": "/categories/609",
+                        "text": "Чашки"
+                    },
+                    {
+                        "id": "6",
+                        "link": "/categories/611",
+                        "text": "Набори"
+                    },
+                    {
+                        "id": "7",
+                        "link": "/categories/613",
+                        "text": "Посуд для зберігання"
+                    },
+                    {
+                        "id": "8",
+                        "link": "/categories/615",
+                        "text": "Столові прибори"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "link": "/categories/617",
+                "text": "Техніка для кухні",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "/categories/619",
+                        "text": "Блендери",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/637",
+                                "text": "Серія ONE"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/639",
+                                "text": "Серія Classic"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/641",
+                                "text": "Серія Mono"
+                            },
+                            {
+                                "id": "4",
+                                "link": "/categories/643",
+                                "text": "Серія De Luxe"
+                            },
+                            {
+                                "id": "5",
+                                "link": "/categories/645",
+                                "text": "Серія  Luxury Linе"
+                            },
+                            {
+                                "id": "6",
+                                "link": "/categories/647",
+                                "text": "Серія Swiss Line"
+                            },
+                            {
+                                "id": "7",
+                                "link": "/categories/649",
+                                "text": "Серія Superbox"
+                            },
+                            {
+                                "id": "8",
+                                "link": "/categories/651",
+                                "text": "Серія MaXX"
+                            },
+                            {
+                                "id": "9",
+                                "link": "/categories/653",
+                                "text": "Серія PRIME"
+                            },
+                            {
+                                "id": "10",
+                                "link": "/categories/655",
+                                "text": "Серія Baking"
+                            },
+                            {
+                                "id": "11",
+                                "link": "/categories/657",
+                                "text": "Серія BBQ"
+                            },
+                            {
+                                "id": "12",
+                                "link": "/categories/659",
+                                "text": "Серія Gastro"
+                            },
+                            {
+                                "id": "13",
+                                "link": "/categories/661",
+                                "text": "Серія ToGo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "link": "/categories/621",
+                        "text": "Аксесуари для блендерів",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/663",
+                                "text": "Подрібнювачі, процесори"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/665",
+                                "text": "Насадки"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/667",
+                                "text": "Ємності"
+                            },
+                            {
+                                "id": "4",
+                                "link": "/categories/669",
+                                "text": "Інструменти"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "link": "/categories/623",
+                        "text": "Міксери"
+                    },
+                    {
+                        "id": "4",
+                        "link": "/categories/625",
+                        "text": "М'ясорубки"
+                    },
+                    {
+                        "id": "5",
+                        "link": "/categories/627",
+                        "text": "Терки, подрібнювачі"
+                    },
+                    {
+                        "id": "6",
+                        "link": "/categories/629",
+                        "text": "Чайники"
+                    },
+                    {
+                        "id": "7",
+                        "link": "/categories/631",
+                        "text": "Кавомолки"
+                    },
+                    {
+                        "id": "8",
+                        "link": "/categories/633",
+                        "text": "Млинки для спецій"
+                    },
+                    {
+                        "id": "9",
+                        "link": "/categories/635",
+                        "text": "Вафельниці"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "link": "/categories/671",
+                "text": "Догляд за волоссям",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "/categories/673",
+                        "text": "Фени",
+                        "list": [
+                            {
+                                "id": "1",
+                                "link": "/categories/679",
+                                "text": "Фени побутові"
+                            },
+                            {
+                                "id": "2",
+                                "link": "/categories/681",
+                                "text": "Фени професійні"
+                            },
+                            {
+                                "id": "3",
+                                "link": "/categories/683",
+                                "text": "Фени готельні"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "link": "/categories/675",
+                        "text": "Тримери та машинки для стрижки"
+                    },
+                    {
+                        "id": "3",
+                        "link": "/categories/677",
+                        "text": "Прилади для стайлінгу"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "link": "/categories/685",
+                "text": "Фільтри для води",
+                "list": [
+                    {
+                        "id": "1",
+                        "link": "/categories/687",
+                        "text": "Фільтр-глечики"
+                    },
+                    {
+                        "id": "2",
+                        "link": "/categories/689",
+                        "text": "Фільтр-пляшки"
+                    },
+                    {
+                        "id": "3",
+                        "link": "/categories/691",
+                        "text": "Фільтр-графини"
+                    },
+                    {
+                        "id": "4",
+                        "link": "/categories/693",
+                        "text": "Картриджі"
+                    },
+                    {
+                        "id": "5",
+                        "link": "/categories/695",
+                        "text": "Професійна серія"
+                    }
+                ]
+            }
+        ],
+        "search-text": "Пошук..."
+    },
+    "socials": [
+        {
+            "id": "1",
+            "link": "#",
+            "icon": "#icon-facebook"
+        },
+        {
+            "id": "2",
+            "link": "#",
+            "icon": "#icon-instagram"
+        },
+        {
+            "id": "3",
+            "link": "#",
+            "icon": "#icon-telegram"
+        }
+    ]
+}

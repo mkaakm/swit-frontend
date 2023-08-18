@@ -1,0 +1,62 @@
+.list {
+  display: flex;
+  grid-area: nav-user-menu;
+  justify-self: flex-end;
+}
+
+.item {
+
+  @media (max-width: 440px) {
+    list-style: none;
+  }
+
+  &:first-child {
+    p {
+      color: red;
+    }
+
+    use {
+      fill: red;
+      stroke-width: 2;
+    }
+  }
+}
+
+.item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.icon {
+  position: relative;
+  height: 25px;
+  max-width: 25px;
+}
+
+.counter {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -3px;
+  right: -5px;
+  width: 14px;
+  height: 14px;
+  font-size: 8px;
+  font-weight: 600;
+  color: $text-color-light;
+  background-color: $text-color-dark;
+  border-radius: 50%;
+  border: 1px solid $bg-light;
+}

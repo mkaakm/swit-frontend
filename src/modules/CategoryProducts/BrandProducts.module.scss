@@ -1,0 +1,127 @@
+.img {
+    height: 450px;
+    background: url('/header-bg_1.png') center/cover no-repeat;
+}
+
+.section {
+    padding: 10px 0;
+    background-color: $bg-light;
+    letter-spacing: 0.07em;
+}
+
+.text {
+    //font-size: 18px;
+    //line-height: 1.2em;
+    //margin-top: 12px;
+    text-align: justify;
+    margin-bottom: 0.6em;
+
+    & strong {
+        font-weight: bold;
+    }
+
+    h1 {
+        margin-bottom: 1.2em;
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+        font-weight: 600;
+    }
+
+    p, ul {
+        margin-bottom: 1.2em;
+    }
+
+    li {
+        position: relative;
+        padding-left: 2em;
+        margin-bottom: 0.6em;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            top: 9px;
+            left: 15px;
+            background-color: $text-color-dark;
+        }
+    }
+}
+
+.loadMoreContainer {
+    text-align: center;
+}
+
+.loadMore {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.productsContainer {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 280px auto;
+    gap: 30px;
+
+    @media (max-width: 440px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.filterTitle {
+    margin-top: 20px;
+    text-align: center;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.filterList {
+    margin-bottom: 15px;
+
+    &Item {
+        margin-bottom: 12px;
+    }
+}
+
+.subfilters {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.subSubfilters {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.filterBtn {
+    background: #333333;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    width: 221px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FEFEFE;
+    font-size: 17px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.filterSubTitle {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.07em;
+    color: #1F1F1F;
+    margin-bottom: 16px;
+    text-align: left;
+}

@@ -1,0 +1,58 @@
+.text {
+    font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+    .section {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .text {
+        font-weight: 500;
+    }
+
+    .payment, .socials {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        padding: 23px 0 23px;
+        display: flex;
+    }
+    
+    .payment {
+        display: flex;
+        margin-left: 122px;
+    
+        &-item:not(:last-child) {
+            margin-right: 13px;
+        }
+    
+        &-icon {
+            max-width: 30px;
+            height: 16px;
+        }
+    }
+    
+    .socials {
+        display: flex;
+        margin-left: 62px;
+    
+        &-item:not(:last-child) {
+            margin-right: 17px;
+        }
+    
+        &-icon {
+            max-width: 20px;
+            height: 16px;
+        }
+    }
+    
+    .list {
+        display: flex;
+        margin-left: 15px;
+    }
+}

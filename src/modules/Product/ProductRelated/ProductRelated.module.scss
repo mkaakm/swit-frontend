@@ -1,0 +1,55 @@
+.section {
+    position: relative;
+    padding: 25px 0 50px;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translateX(-50%);
+    }
+}
+
+.title {
+    font-weight: 800;
+    color: $dark-color;
+}
+
+.wrapper {
+    padding-top: 15px;
+}
+
+.item {
+    margin: 20px 15px;
+}
+
+@media (max-width: 1200px) {
+    .section {
+        padding: 25px 0 0;
+        
+        &::before {
+            width: calc(100vw - 32px);
+        }
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        padding: 25px 0 50px;
+        
+        &::before {
+            width: calc(100vw - 100px);
+        }
+    }
+
+    .title {
+        font-size: 33px;
+    }
+}

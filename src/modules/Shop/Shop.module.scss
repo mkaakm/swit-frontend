@@ -1,0 +1,37 @@
+.panel {
+    letter-spacing: 0.07em;
+    color: $bg-light;
+    //background-color: $dark-color;
+    background-color: #504f4f;
+    padding: 3px 0;
+
+    @media (max-width: 440px) {
+        display: none;
+    }
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.settings {
+    display: flex;
+
+    &-item {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-right: 35px;
+        }
+    }
+
+    &-text {
+        font-weight: 600;
+    }
+}
+
+

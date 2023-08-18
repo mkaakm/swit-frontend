@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    border-top: 1px solid $dark-color;
+}
+
+.item:not(:last-child) {
+    margin-right: 44px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}

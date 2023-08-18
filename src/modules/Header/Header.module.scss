@@ -1,0 +1,329 @@
+.imgWrapper {
+  width: 100%;
+  height: 475px;
+  position: relative;
+  background-size: cover;
+  //display: none;
+  background-image: url("https://live.mdnplay.dev/en-US/docs/Web/CSS/background-image/mdn_logo_only_color.png");
+
+  @media screen and (min-width:1300px) {
+    height: 413px;
+    //display: none;
+  }
+}
+
+.sliderImage {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (max-width: 440px) {
+    height: calc((100vw - 32px) * 1.334);
+  }
+}
+
+.sliderImg1 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/ADE_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/ADE_440х587_1.jpg");
+  }
+}
+
+.sliderImg2 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Bamix_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Bamix_440х587_1.jpg");
+  }
+}
+
+.sliderImg3 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Brita_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Brita_440х587_1.jpg");
+  }
+}
+
+.sliderImg4 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Fiskars_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Fiskars_440х587_1.jpg");
+  }
+}
+
+.sliderImg5 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Gefu_1400х438_1.jpg");
+  }
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Gefu_440х587_1.jpg");
+  }
+}
+
+.sliderImg6 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Rocco_Bormiolli_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Rocco_Bormiolli_440х587_1.jpg");
+  }
+}
+
+.sliderImg7 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/SwissDiamond_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/SwissDiamond_440х587_1.jpg");
+  }
+}
+
+.sliderImg8 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Valera_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Valera_440х587_1.jpg");
+  }
+}
+
+.sliderImg9 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Valera_1400х438_1.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Valera_440х587_1.jpg");
+  }
+}
+
+.sliderImg10 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/ADE_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/ADE_440х587_2.jpg");
+  }
+}
+
+.sliderImg11 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Bamix_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Bamix_440х587_2.jpg");
+  }
+}
+
+.sliderImg12 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Brita_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Brita_440х587_2.jpg");
+  }
+}
+
+.sliderImg13 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Fiskars_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Fiskars_440х587_2.jpg");
+  }
+}
+
+.sliderImg14 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Gefu_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Gefu_440х587_2.jpg");
+  }
+}
+
+.sliderImg15 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Rocco_Bormiolli_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Rocco_Bormiolli_440х587_2.jpg");
+  }
+}
+
+.sliderImg16 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/SwissDiamond_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/SwissDiamond_440х587_2.jpg");
+  }
+}
+
+.sliderImg17 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Valera_1400х438_2.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Valera_440х587_2.jpg");
+  }
+}
+
+.sliderImg18 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Bamix_1400х438_3.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Bamix_440х587_3.jpg");
+  }
+}
+
+.sliderImg19 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Brita_1400х438_3.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Brita_440х587_3.jpg");
+  }
+}
+
+.sliderImg20 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Fiskars_1400х438_3.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Fiskars_440х587_3.jpg");
+  }
+}
+
+.sliderImg21 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Gefu_1400х438_3.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Gefu_440х587_3.jpg");
+  }
+}
+
+.sliderImg22 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Rocco_Bormiolli_1400х438_3.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Rocco_Bormiolli_440х587_3.jpg");
+  }
+}
+
+.sliderImg23 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Valera_1400х438_3.jpg");
+  }
+
+  @media (max-width: 440px) {
+    background-image: url("/images/slider/Valera_440х587_3.jpg");
+  }
+}
+
+.sliderImg24 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Brita_1400х438_4.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Brita_440х587_4.jpg");
+  }
+}
+
+.sliderImg25 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Fiskars_1400х438_4.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Fiskars_440х587_4.jpg");
+  }
+}
+
+.sliderImg26 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Gefu_1400х438_4.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Gefu_440х587_4.jpg");
+  }
+}
+
+.sliderImg27 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Rocco_Bormiolli_1400х438_4.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Rocco_Bormiolli_440х587_4.jpg");
+  }
+}
+
+.sliderImg28 {
+  @media (min-width: 1200px) {
+    background-image: url("/images/slider/Valera_1400х438_4.jpg");
+  }
+
+  @media (max-width: 440px) {
+    display: none;
+    //background-image: url("/images/slider/Valera_440х587_4.jpg");
+  }
+}
+
+@media (max-width: 440px) {
+  .slider :global(.slick-slide) {
+    height: 475px;
+  }
+}

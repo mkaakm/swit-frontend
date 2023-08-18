@@ -1,0 +1,46 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /feed/
+Disallow: /trackback
+Disallow: */trackback
+Disallow: */feed
+Disallow: /*?*
+Disallow: /*?
+Disallow: /?s=*
+Disallow: /category/*
+Disallow: /wp-content/plugins
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /&*
+Disallow: /page/
+Disallow: */page/
+Disallow: /rating_over*
+Disallow: /images/
+
+User-Agent: Yandex
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /feed/
+Disallow: /trackback
+Disallow: */trackback
+Disallow: */feed
+Disallow: /*?*
+Disallow: /*?
+Disallow: /?s=*
+Disallow: /category/*
+Disallow: /wp-content/plugins
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /&*
+Disallow: /page/
+Disallow: */page/
+Disallow: /rating_over*
+Disallow: /images/
+Crawl-delay: 10
+
+Host: https://swit.ua
+Sitemap: https://swit.ua/sitemap.xml

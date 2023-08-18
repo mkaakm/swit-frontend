@@ -1,0 +1,30 @@
+.section {
+    padding: 30px 0;
+    //background-color: $bg-medium;
+    background-color: #f8f8f8;
+    //line-height: 1.2em;
+    //letter-spacing: 0.07em;
+    letter-spacing: normal;
+}
+
+.text {
+    text-align: justify;
+    font-size: 15px;
+
+    & strong {
+        font-weight: bold;
+    }
+
+    p {
+        line-height: 1.7;
+        letter-spacing: normal;
+
+        @media (max-width: 440px) {
+            line-height: 1.4;
+        }
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 0.4em;
+    }
+}

@@ -1,0 +1,22 @@
+.list {
+    grid-area: nav-contacts;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+
+.icon {
+    max-width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.link {
+    font-size: 13px;
+}

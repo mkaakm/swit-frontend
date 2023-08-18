@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+}
+
+.item {
+    margin-left: 28px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.icon {
+    position: relative;
+    height: 20px;
+    max-width: 20px;
+}
+
+.counter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -3px;
+    right: -5px;
+    width: 14px;
+    height: 14px;
+    font-size: 8px;
+    font-weight: 600;
+    color: $text-color-light;
+    background-color: $text-color-dark;
+    border-radius: 50%;
+    border: 1px solid $bg-light;
+}

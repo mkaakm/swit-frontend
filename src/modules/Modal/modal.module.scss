@@ -1,0 +1,33 @@
+.backdrop {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0;
+    //right: 0;
+    top: 0;
+    //bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    z-index: 999;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+}
+
+
+
+.modal {
+    width: 993px;
+    margin: 40px auto;
+    position: relative;
+    //top: 20px;
+    background: #F8F8F8;
+    border-radius: 20px;
+    padding: 20px;
+
+    @media (max-width: 440px) {
+        width: 90%;
+    }
+}

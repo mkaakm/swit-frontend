@@ -1,0 +1,29 @@
+.content {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.item:not(:last-child) {
+    position: relative;
+    margin-right: 20px;
+
+    &::after {
+        content: '>';
+        position: absolute;
+        right: -14px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content {
+        padding: 20px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        padding: 15px 0;
+    }
+}

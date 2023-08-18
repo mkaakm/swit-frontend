@@ -1,0 +1,42 @@
+.list {
+  display: grid;
+  grid-auto-rows: max-content;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .list {
+    grid-gap: 16px;
+  }
+}
+
+@media (max-width: 430px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 430px) {
+  .list {
+    grid-template-columns: repeat(auto-fill, 190px);
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list {
+    grid-gap: 32px;
+  }
+}
+
+
+.title {
+  font-size: 24px;
+  margin-bottom: 1em;
+  font-weight: 600;
+}

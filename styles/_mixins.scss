@@ -1,0 +1,26 @@
+@mixin mobile {
+  @media (max-width: 440px) {
+    @content;
+  }
+}
+
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flexBox( $justifyValue: flex-start, $alignValue: baseline, $directionVlaue: row ) {
+  display: flex;
+
+  @if $directionVlaue != row {
+    flex-direction: $directionVlaue;
+  }
+
+  @if $justifyValue != flex-start {
+    justify-content: $justifyValue;
+  }
+
+  @if $alignValue != baseline {
+    align-items: $alignValue;
+  }
+}

@@ -1,0 +1,32 @@
+.lang {
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.lang-item {
+    padding: 3px 5px;
+    border-radius: 9px;
+    cursor: pointer;
+
+    &:not(:last-child) {
+        position: relative;
+        margin-right: 10px;
+
+        &::after {
+            content: '/';
+            position: absolute;
+            font-size: 15px;
+            color: #000;
+            top: 4px;
+            right: -7px;
+            cursor: default;
+        }
+    }
+}
+
+.lang-item.active {
+    color: #fff;
+    background-color: #000;
+}

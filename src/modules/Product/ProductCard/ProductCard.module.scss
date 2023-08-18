@@ -1,0 +1,170 @@
+// .card {
+//     display: grid;
+//     grid-template-columns: 500px auto;
+//     grid-template-areas: 'title title'
+//                          'gallery info';
+//     column-gap: 40px;
+//     padding-bottom: 36px;
+// }
+
+.title {
+    grid-area: title;
+    // display: flex;
+    // justify-content: space-between;
+    margin-bottom: 12px;
+
+    &-name {
+        // font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 600;
+        color: $dark-color;
+    }
+}
+
+.data {
+    margin-right: 20px;
+    width: 15%;
+    text-align: right;
+
+    &-item {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    &-title {
+        font-weight: 600;
+        margin-right: 7px;
+    }
+}
+
+.info {
+    grid-area: info;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 600;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+
+    &-price {
+        &-old {
+            font-size: 20px;
+            color: #575757;
+            text-decoration: line-through;
+            margin-bottom: 10px;
+        }
+
+        &-new {
+            font-size: 30px;
+            color: #D11E3E;
+        }
+
+        &-stock {
+            font-size: 15px;
+            margin-left: 10px;
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+
+    &-item {
+        max-width: 25px;
+        max-height: 25px;
+        fill: $text-color-dark;
+        margin-right: 20px;
+    }
+
+    &-buy {
+        padding: 15px 30px;
+        font-size: 20px;
+        color: $text-color-dark;
+        border: 2px solid $text-color-dark;
+        border-radius: 30px;
+        transition: $transition-time;
+        cursor: pointer;
+
+        &:hover {
+            color: $text-color-light;
+            background-color: $text-color-dark;
+        }
+    }
+}
+
+.benefits {
+    max-width: 600px;
+    margin-top: 30px;
+
+    &-item {
+        display: grid;
+        grid-template-columns: 67px auto;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .buy-price {
+        &-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-old {
+            font-size: 18px;
+        }
+
+        &-new {
+            font-size: 24px;
+        }
+
+        &-stock {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+
+    .buttons {
+        &-buy {
+            padding: 13px 18px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        display: grid;
+        grid-template-columns: 500px auto;
+        grid-template-areas: 'title title'
+                             'gallery info';
+        column-gap: 40px;
+        padding-bottom: 36px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+
+        &-name {
+            font-size: 30px;
+        }
+    }
+}

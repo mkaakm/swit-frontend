@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "img": "/images/logo/ade.svg",
+        "link": "/brands/ade"
+    },
+    {
+        "id": "2",
+        "img": "/images/logo/bamix.svg",
+        "link": "/brands/bamix"
+    },
+    {
+        "id": "3",
+        "img": "/images/logo/bormioli.svg",
+        "link": "/brands/rocco-bormiolli"
+    },
+    {
+        "id": "4",
+        "img": "/images/logo/fiskars.svg",
+        "link": "/brands/fiskars"
+    },
+    {
+        "id": "5",
+        "img": "/images/logo/valera.svg",
+        "link": "/brands/valera"
+    },
+    {
+        "id": "6",
+        "img": "/images/logo/brita.png",
+        "link": "/brands/brita"
+    },
+    {
+        "id": "7",
+        "img": "/images/logo/swiss-diamond.jpg",
+        "link": "/brands/swiss-diamond"
+    },
+    {
+        "id": "8",
+        "img": "/images/logo/duralex.png",
+        "link": "/brands/duralex"
+    },
+    {
+        "id": "9",
+        "img": "/images/logo/gefu.webp",
+        "link": "/brands/gefu"
+    },
+    {
+        "id": "10",
+        "img": "/images/logo/iittala.png",
+        "link": "/brands/iittala"
+    },
+    {
+        "id": "11",
+        "img": "/images/logo/kaffit.png",
+        "link": "/brands/kaffit"
+    }
+]

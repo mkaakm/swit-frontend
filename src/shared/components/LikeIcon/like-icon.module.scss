@@ -1,0 +1,38 @@
+
+.product-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color:  rgba(0, 0, 0, 0.3);
+
+  &:hover .product-btn-icon {
+    fill: #F44336;
+  }
+}
+
+.active .product-btn-icon {
+  fill: #F44336;
+}
+
+.product-btn:not(:first-child) {
+  margin-left: 4px;
+}
+
+.product-btn-icon {
+  fill: $text-color-dark;
+  transition: $transition-time;
+
+  &._compare {
+    width: 20px;
+    height: 20px;
+  }
+
+  &._like {
+    width: 17px;
+    height: 17px;
+  }
+}

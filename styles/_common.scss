@@ -1,0 +1,9 @@
+body {
+    background-color: $bg-light;
+    letter-spacing: 0.07em;
+    min-height: 100vh;
+}
+
+body, a {
+    color: $text-color-dark;
+}

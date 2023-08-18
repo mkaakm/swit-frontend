@@ -1,0 +1,46 @@
+
+//&-item {
+//  max-width: 25px;
+//  max-height: 25px;
+//  fill: $text-color-dark;
+//  margin-right: 20px;
+//}
+
+.product-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  fill: $text-color-dark;
+  border-radius: 50%;
+  margin-right: 20px;
+
+  &:hover .product-btn-icon {
+    fill: #F44336;
+  }
+}
+
+.active .product-btn-icon {
+  fill: #F44336;
+}
+
+.product-btn:not(:first-child) {
+  margin-left: 4px;
+}
+
+.product-btn-icon {
+  fill: $text-color-dark;
+  transition: $transition-time;
+
+  &._compare {
+    width: 20px;
+    height: 20px;
+  }
+
+  &._like {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+    .section {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        padding: 16px 25px;
+        background-color: $bg-light;
+        position: fixed;
+        width: 100%;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+
+        &:first-child {
+            cursor: pointer;
+        }
+    }
+
+    .logo {
+        margin: 0 auto;
+
+        &-icon {
+            height: 30px;
+        }
+    }
+
+    .menu-close {
+        display: none;
+
+        &.active {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            right: 0;
+            width: 68px;
+            height: 64px;
+            background-color: $bg-light;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        display: none;
+    }
+}

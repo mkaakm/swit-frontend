@@ -1,0 +1,66 @@
+.wrapper {
+  margin-bottom: 21px;
+  border: 2px solid #1F1F1F;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 33px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+
+  @media (max-width: 440px) {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+}
+
+.list {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1F1F1F;
+  
+  @media (max-width: 440px) {
+   & thead {
+      display: none;
+    }
+  }
+}
+
+.name {
+  width: 60%;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.count {
+  width: 20%;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.price {
+  width: 20%;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.toPay {
+  display: flex;
+  justify-content: space-between;
+  color: #1F1F1F;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  margin: 20px 0;
+
+  @media (max-width: 440px) {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}

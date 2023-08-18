@@ -1,0 +1,19 @@
+.btn {
+  width: 100%;
+  border: 2px solid #1F1F1F;
+  border-radius: 38px;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: #1F1F1F;
+  margin-bottom: 30px;
+  background: transparent;
+  cursor: pointer;
+
+  &:global(.active) {
+    background: #333333;
+    color: #F8F8F8;
+  }
+}

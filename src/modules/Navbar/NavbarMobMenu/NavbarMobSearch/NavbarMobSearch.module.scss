@@ -1,0 +1,26 @@
+.wrapper {
+    position: absolute;
+    width: 90%;
+    z-index: 90;
+    background-color: #F8F8F8;
+    //justify-self: flex-end;
+}
+
+.input {
+    //width: 400px;
+    width: 100%;
+    font-size: 12px;
+    padding: 7px 32px 7px 7px;
+    background-color: transparent;
+    border-bottom: 2px solid $text-color-dark;
+    outline: none;
+}
+
+.icon {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}

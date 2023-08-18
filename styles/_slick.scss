@@ -1,0 +1,56 @@
+ul.slick-dots {
+    bottom: 10px;
+}
+
+button.slick-prev,
+button.slick-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(51, 51, 51, 0.2);
+    box-shadow: 0 0 20px rgba(51, 51, 51, 0.2);
+    z-index: 1;
+
+    &:hover, &:focus {
+        background-color: rgba(51, 51, 51, 0.2);
+    }
+}
+
+button.slick-prev {
+    left: 20px;
+}
+
+button.slick-next {
+    right: 20px;
+}
+
+button.slick-prev::before,
+button.slick-next::before,
+button.slick-prev::after,
+button.slick-next::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    background-color: $bg-light;
+    opacity: 1;
+}
+
+button.slick-prev::before {
+    transform: translate(-55%, -220%) rotate(-45deg);
+}
+
+button.slick-next::before {
+    transform: translate(-45%, -220%) rotate(45deg);
+}
+
+button.slick-prev::after {
+    transform: translate(-55%, 190%) rotate(45deg);
+}
+
+button.slick-next::after {
+    transform: translate(-45%, 190%) rotate(-45deg);
+}

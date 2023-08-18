@@ -1,0 +1,103 @@
+.item {
+  padding: 20px 10px;
+  border-bottom: 2px solid #C4C4C4;
+  display: grid;
+  grid-template-columns: 194px 439px 1fr;
+  column-gap: 21px;
+  grid-auto-rows: auto;
+
+  @media (max-width: 440px) {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
+
+.imgWrapper {
+  width: 194px;
+  height: 194px;
+  position: relative;
+
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: #333333;
+}
+
+.count {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #333333;
+  width: 100%;
+  justify-content: flex-end;
+
+  @media (max-width: 440px) {
+    width: 100%;
+    justify-content: center;
+  }
+
+  & span {
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+}
+
+.priceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @media (max-width: 440px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.removeIcon {
+  background: rgba(196, 196, 196, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 440px) {
+    display: none;
+  }
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.07em;
+  color: #333333;
+}

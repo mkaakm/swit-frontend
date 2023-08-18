@@ -1,0 +1,82 @@
+.wrapper {
+  width: 933px;
+
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  //margin-bottom: 15px;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.emptyDiv {
+  @media (max-width: 440px) {
+    display: none;
+  }
+}
+
+.title {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #333333;
+  letter-spacing: 0.07em;
+}
+
+.clearBtn {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: #333333;
+  cursor: pointer;
+}
+
+.payBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #C4C4C4;
+  margin-bottom: 20px;
+
+  @media (max-width: 440px) {
+    justify-content: space-between;
+  }
+}
+
+.toPay {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #333333;
+  margin-right: 43px;
+
+  @media (max-width: 440px) {
+    font-size: 18px;
+  }
+}
+
+.sum {
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.07em;
+  color: #575757;
+
+  @media (max-width: 440px) {
+    font-size: 24px;
+  }
+}
+
+.cartButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+}
+
+.item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.link {
+    font-size: 12px;
+    line-height: 1.2em;
+}

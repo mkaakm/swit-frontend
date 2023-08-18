@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .section {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        padding: 9px 0;
+        background-color: $bg-medium;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
